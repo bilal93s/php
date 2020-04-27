@@ -1,4 +1,7 @@
 <?php
+
+namespace wwww\Controllers;
+
 class UserController
 {
     public function defaultAction()

@@ -1,4 +1,7 @@
 <?php
+
+namespace www\Models;
+
 class users extends DB
 {
     protected $id=null;

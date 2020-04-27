@@ -1,4 +1,7 @@
 <?php
+
+namespace www\Core;
+
 class View
 {
     private $view;
