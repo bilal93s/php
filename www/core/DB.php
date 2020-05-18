@@ -1,8 +1,8 @@
 <?php
 
-namespace mvc\core;
+namespace www\core;
 
-use mvc\models\users;
+use www\models\users;
 use PDO;
 
 class DB{
@@ -16,7 +16,7 @@ class DB{
             die("error sql : ".$e->getMessage());
         }
         $this->table = PREFIXE_DB.get_called_class();
-        $cleanTable = str_replace('mvc\models\users', 'users', $this->table);
+        $cleanTable = str_replace('www\models\users', 'users', $this->table);
         $this->table = $cleanTable;
     }
 

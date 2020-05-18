@@ -1,8 +1,8 @@
 <?php 
 
-namespace mvc\models;
+namespace www\models;
 
-use mvc\core\DB;
+use www\core\DB;
 
 class users extends DB{
     protected $id=null;

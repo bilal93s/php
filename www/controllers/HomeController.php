@@ -1,6 +1,6 @@
 <?php
 
-namespace mvc\controllers;
+namespace www\controllers;
 
 class HomeController{
     public function buttonsAction(){

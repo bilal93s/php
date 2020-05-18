@@ -1,9 +1,9 @@
 <?php
 
-namespace mvc\controllers;
+namespace www\controllers;
 
-use mvc\models\users;
-use mvc\core\View;
+use www\models\users;
+use www\core\View;
 
 class UserController{
 	public function loginAction(){

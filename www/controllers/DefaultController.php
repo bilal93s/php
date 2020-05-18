@@ -1,8 +1,8 @@
 <?php
 
-namespace mvc\controllers;
+namespace www\controllers;
 
-use mvc\core\View;
+use www\core\View;
 
 class DefaultController{
 	public function defaultAction()

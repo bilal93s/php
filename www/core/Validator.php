@@ -1,6 +1,6 @@
 <?php
 
-namespace mvc\core;
+namespace www\core;
 
 class Validator{
     public static function formValidate($config, $data){
