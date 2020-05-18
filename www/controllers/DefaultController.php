@@ -1,17 +1,13 @@
 <?php
 
-namespace wwww\Controllers;
+namespace mvc\controllers;
 
-class DefaultController
-{
-    public function defaultAction()
-    {
+use mvc\core\View;
 
-
-        //Depuis la base de données récupéré le prénom
-        $name = "Yves";
-
-        $myView = new View("dashboard");
-        $myView->assign("name", $name);
-    }
+class DefaultController{
+	public function defaultAction()
+	{
+		// parameter order -> vues, tpl
+		$myView = new View("dashboard");
+	}
 }

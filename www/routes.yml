@@ -2,24 +2,42 @@
   controller: Default
   action: default
 
+/cards:
+  controller: Home
+  action: cards
 
-/se-connecter:
+/buttons:
+  controller: Home
+  action: buttons
+
+/login:
   controller: User
   action: login
 
-/s-inscrire:
+/register:
   controller: User
   action: register
 
-/mot-de-passe-oublie:
+/forget-password:
   controller: User
-  action: forgotPwd
+  action: forgetpwd
 
+/colors:
+  controller: Home
+  action: colors
 
-/ajout-utilisateur:
-  controller: User
-  action: add
+/border:
+  controller: Home
+  action: border
 
-/liste-des-utilisateurs:
-  controller: User
-  action: list
+/other:
+  controller: Home
+  action: other
+
+/charts:
+  controller: Home
+  action: charts
+
+/table:
+  controller: Home
+  action: table
