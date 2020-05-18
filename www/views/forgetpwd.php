@@ -28,10 +28,10 @@
                 </form>
                 <hr>
                 <div class="text-center">
-                <a class="small" href="<?= \mvc\core\Helpers::getUrl("User", "register") ?>">Create an Account!</a>
+                <a class="small" href="<?= \www\core\Helpers::getUrl("User", "register") ?>">Create an Account!</a>
                 </div>
                 <div class="text-center">
-                <a class="small" href="<?= \mvc\core\Helpers::getUrl("User", "login") ?>">Already have an account? Login!</a>
+                <a class="small" href="<?= \www\core\Helpers::getUrl("User", "login") ?>">Already have an account? Login!</a>
                 </div>
             </div>
             </div>

@@ -58,7 +58,7 @@ class users extends DB{
         return [
                     "config"=>[
                                 "method"=>"POST", 
-                                "action"=>\mvc\core\Helpers::getUrl("User", "register"),
+                                "action"=>\www\core\Helpers::getUrl("User", "register"),
                                 "class"=>"",
                                 "id"=>"",
                                 "submit"=>"S'inscrire"

@@ -41,10 +41,10 @@
             </form>
             <hr>
             <div class="text-center">
-            <a class="small" href="<?= \mvc\core\Helpers::getUrl("User", "forgetpwd") ?>">Forgot Password?</a>
+            <a class="small" href="<?= \www\core\Helpers::getUrl("User", "forgetpwd") ?>">Forgot Password?</a>
             </div>
             <div class="text-center">
-            <a class="small" href="<?= \mvc\core\Helpers::getUrl("User", "register") ?>">Create an Account!</a>
+            <a class="small" href="<?= \www\core\Helpers::getUrl("User", "register") ?>">Create an Account!</a>
             </div>
         </div>
         </div>
